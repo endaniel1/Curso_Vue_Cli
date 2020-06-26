@@ -1,6 +1,6 @@
 <template>
 	<div id="">
-		<h1>Caracteristicas desde Componente: {{$route.params.id}}</h1>
+		<h1>Caracteristicas desde Componente: {{$route.params.id}}</h1>		
 	</div>
 </template>
 <script>

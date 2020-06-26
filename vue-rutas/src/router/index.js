@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
+//AQUI ES DONDE VAN LA RUTAS 
 Vue.use(VueRouter)
-
+  /*
+    PATH: LA RUTA
+    NAME: NOMBRE LA LA RUTA A UTILIZAR
+  */
   const routes = [
   {
     path: '/',
@@ -21,6 +24,16 @@ Vue.use(VueRouter)
     path: '/caracteristicas/:id',
     name: 'Caracteristicas',
     component: () => import(/* webpackChunkName: "home" */ '../views/Caracteristicas.vue')
+  },
+  {
+    path: '/card',
+    name: 'Card',
+    component: () => import(/* webpackChunkName: "home" */ '../views/Card.vue')
+  },
+  {
+    path: '/formulario',
+    name: 'Formulario',
+    component: () => import(/* webpackChunkName: "home" */ '../views/Formulario.vue')
   }
 ]
 

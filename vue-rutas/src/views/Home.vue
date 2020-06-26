@@ -10,7 +10,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'Home',
+  name: 'Home',//NOMBRE DEL ARCHIVO TIENE Q SE EL MISMO
   components: {
     HelloWorld
   }
